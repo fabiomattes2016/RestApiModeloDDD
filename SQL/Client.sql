@@ -1,0 +1,8 @@
+CREATE TABLE Clients (
+	Id INT NOT NULL PRIMARY KEY,
+	Name VARCHAR(150),
+	Lastname VARCHAR(150),
+	Email VARCHAR(150),
+	CreatedAt DATETIME,
+	IsActive BIT
+);

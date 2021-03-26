@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 namespace RestApiModeloDDD.API.Controllers
 {
+
     [Route("[controller]")]
     [ApiController]
     public class ProductController : ControllerBase

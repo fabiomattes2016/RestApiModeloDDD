@@ -12,7 +12,7 @@ namespace RestApiModeloDDD.Application.Mappers
 
         public Client MapperDTOToEntity(ClientDTO clientDTO)
         {
-            var client = new Client()
+            var clients = new Client()
             {
                 Id = clientDTO.Id
                 ,
@@ -23,7 +23,7 @@ namespace RestApiModeloDDD.Application.Mappers
                 Email = clientDTO.Email
             };
 
-            return client;
+            return clients;
         }
 
         public ClientDTO MapperEntityToDTO(Client client)

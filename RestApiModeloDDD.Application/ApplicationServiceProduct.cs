@@ -2,9 +2,7 @@
 using RestApiModeloDDD.Application.Interfaces;
 using RestApiModeloDDD.Application.Interfaces.Mappers;
 using RestApiModeloDDD.Domain.Core.Interfaces.Services;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace RestApiModeloDDD.Application
 {

@@ -1,0 +1,7 @@
+CREATE TABLE Products (
+	Id INT NOT NULL PRIMARY KEY,
+	Name VARCHAR(150),
+	Price DECIMAL(18,2),
+	CreatedAt DATETIME,
+	IsAvailable BIT
+);

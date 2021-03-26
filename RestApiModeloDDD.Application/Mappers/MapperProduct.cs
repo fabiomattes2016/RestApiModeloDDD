@@ -14,7 +14,7 @@ namespace RestApiModeloDDD.Application.Mappers
 
         public Product MapperDTOToEntity(ProductDTO productDTO)
         {
-            var product = new Product()
+            var products = new Product()
             {
                 Id = productDTO.Id
                 ,
@@ -23,7 +23,7 @@ namespace RestApiModeloDDD.Application.Mappers
                 Price = productDTO.Price
             };
 
-            return product;
+            return products;
         }
 
         public ProductDTO MapperEntityToDTO(Product product)
