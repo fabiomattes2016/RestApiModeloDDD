@@ -8,4 +8,4 @@ EF => O Entity Framework Core é um mapeador moderno de banco de dados de objeto
 
 IOC => Inversão de Controle ou Inversion of Control - conhecido pela Sigla IoC é um Pattern que prega para usarmos o controle das instancias de uma determinada classe ser tratada externamente e não dentro da classe em questão, ou seja, Inverter o controle de uma classe delegando para uma outra classe, interface, componente, serviço, etc.
 
-Documentação Swagger => {http:host:port}/swagger/index.html
+Documentação Swagger => {http://host:port}/swagger/index.html
