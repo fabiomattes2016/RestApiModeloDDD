@@ -40,14 +40,14 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Mapper
 
         public IEnumerable<ProductDTO> MapperListProductsDTO(IEnumerable<Product> products)
         {
-            var dto = products.Select(c =>
+            var dto = products.Select(p =>
                 new ProductDTO
                 {
-                    Id = c.Id
+                    Id = p.Id
                     ,
-                    Name = c.Name
+                    Name = p.Name
                     ,
-                    Price = c.Price
+                    Price = p.Price
                 }
             );
 
