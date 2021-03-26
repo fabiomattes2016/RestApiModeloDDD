@@ -7,9 +7,6 @@ using RestApiModeloDDD.Domain.Core.Interfaces.Repositories;
 using RestApiModeloDDD.Domain.Core.Interfaces.Services;
 using RestApiModeloDDD.Domain.Services;
 using RestApiModeloDDD.Infrastructure.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RestApiModeloDDD.Infrastructure.CrossCutting.IOC
 {
