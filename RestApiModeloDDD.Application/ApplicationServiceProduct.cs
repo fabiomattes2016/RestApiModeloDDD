@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RestApiModeloDDD.Application
 {
-    class ApplicationServiceProduct : IApplicationServiceProduct
+    public class ApplicationServiceProduct : IApplicationServiceProduct
     {
         private readonly IServiceProduct serviceProduct;
         private readonly IMapperProduct mapperProduct;

@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RestApiModeloDDD.Application.Mappers
 {
-    class MapperProduct : IMapperProduct
+    public class MapperProduct : IMapperProduct
     {
         IEnumerable<ProductDTO> productDTO = new List<ProductDTO>();
 
