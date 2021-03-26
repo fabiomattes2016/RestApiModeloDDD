@@ -1,10 +1,10 @@
 ﻿using RestApiModeloDDD.Application.Dtos;
+using RestApiModeloDDD.Application.Interfaces.Mappers;
 using RestApiModeloDDD.Domain.Entities;
-using RestApiModeloDDD.Infrastructure.CrossCutting.Interface;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RestApiModeloDDD.Infrastructure.CrossCutting.Mapper
+namespace RestApiModeloDDD.Application.Mappers
 {
     public class MapperClient : IMapperClient
     {
@@ -44,12 +44,16 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Mapper
 
         public IEnumerable<ClientDTO> MapperListClientsDTO(IEnumerable<Client> clients)
         {
-            var dto = clients.Select(c => 
-                new ClientDTO {
+            var dto = clients.Select(c =>
+                new ClientDTO
+                {
                     Id = c.Id
-                    ,Name = c.Name
-                    ,Lastname = c.Lastname
-                    ,Email = c.Email
+                    ,
+                    Name = c.Name
+                    ,
+                    Lastname = c.Lastname
+                    ,
+                    Email = c.Email
                 }
             );
 
